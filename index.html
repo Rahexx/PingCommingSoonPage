@@ -1,34 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Ping coming soon page</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <title>Frontend Mentor | Ping coming soon page</title>
+  </head>
+  <body>
+    <header class="header">
+      <img
+        src="./images/logo.svg"
+        alt="logo of ping company"
+        class="header__logo"
+      />
+      <h1 class="header__title">We are launching soon!</h1>
+      <p class="header__text">Subscribe and get notified</p>
+    </header>
+    <main class="main">
+      <form class="main__form fom">
+        <input type="text" class="form__input" />
+        <button class="form__submit">Notify Me</button>
+      </form>
+      <img
+        src="./images/illustration-dashboard.png"
+        alt="mockup of application"
+        class="main__illustration"
+      />
+    </main>
+    <footer class="footer">
+      <p class="footer__copyRight">&copy; Copyright Ping. All rights reserved.</p>
+      <div class="footer__socials socials">
+        <div class="socials__item">
+          <ion-icon class="socials__icon" name="logo-facebook"></ion-icon>
+        </div>
+        <div class="socials__item">
+          <ion-icon class="socials__icon" name="logo-twitter"></ion-icon>
+        </div>
+        <div class="socials__item">
+          <ion-icon class="socials__icon" name="logo-instagram"></ion-icon>
+        </div>
+      </div>
+    </footer>
 
-  We are launching soon!
-
-  Subscribe and get notified
-
-  Notify Me
-
-  &copy; Copyright Ping. All rights reserved.
-
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+  </body>
 </html>
