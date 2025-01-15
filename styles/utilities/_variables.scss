@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
 
 $blue: hsl(223, 87%, 63%);
+$shadow-blue: hsla(223, 87%, 63%, 23%);
 $pale-blue: hsl(223, 100%, 88%);
 $light-red: hsl(354, 100%, 66%);
 $gray: hsl(0, 0%, 59%);
 $dark-blue: hsl(209, 33%, 12%);
+$white: hsl(100, 100%, 100%);
 
 $font-primary: 'Libre Franklin', serif;
 
@@ -30,6 +32,9 @@ $line-height-60: 60px;
 $letter-spacing-s: 0.13px;
 $letter-spacing-m: 0.15px;
 
+$border-radius-28: 28px;
+
+$space-10: 10px;
 $space-15: 15px;
 $space-32: 32px;
 $space-72: 72px;

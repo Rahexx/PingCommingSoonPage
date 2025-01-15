@@ -1,0 +1,33 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: $space-10;
+
+  &__input {
+    height: 40px;
+    width: 281px;
+    padding: $space-10 0 $space-10 $space-32;
+    border: 1px solid $pale-blue;
+    border-radius: $border-radius-28;
+
+    &::placeholder {
+      color: $pale-blue;
+      line-height: $line-height-20;
+      font-size: $font-size-12;
+      font-weight: $font-weight-300;
+    }
+  }
+
+  &__submit {
+    height: 40px;
+    width: 282px;
+    border: none;
+    background: $blue;
+    color: $white;
+    line-height: $line-height-16;
+    font-size: $font-size-12;
+    font-weight: $font-weight-600;
+    border-radius: $border-radius-28;
+    box-shadow: 0 5px 10px 2px $shadow-blue;
+  }
+}
