@@ -2,12 +2,9 @@
 @import './styles/utilities/variables';
 @import './styles/components/header';
 @import './styles/components/form';
+@import './styles/components/illustration';
 
 .container,
 button {
   font-family: $font-primary;
-}
-
-.main__illustration {
-  display: none;
 }
