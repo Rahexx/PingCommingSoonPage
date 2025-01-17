@@ -22,6 +22,10 @@
 
     .form__input {
       border: 1px solid $light-red;
+
+      &:focus-visible {
+        outline: 1px solid $light-red;
+      }
     }
   }
   &__input {
@@ -59,5 +63,6 @@
     font-weight: $font-weight-600;
     border-radius: $border-radius-28;
     box-shadow: 0 5px 10px 2px $shadow-blue;
+    cursor: pointer;
   }
 }
