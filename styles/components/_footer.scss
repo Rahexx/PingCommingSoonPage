@@ -2,4 +2,12 @@
   display: flex;
   flex-direction: column;
   gap: $space-27;
+  margin-bottom: $space-37;
+  align-items: center;
+
+  &__copyRight {
+    color: $gray;
+    font-weight: $font-weight-300;
+    font-size: $font-size-10;
+  }
 }

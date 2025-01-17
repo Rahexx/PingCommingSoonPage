@@ -32,6 +32,10 @@
     border: 1px solid $pale-blue;
     border-radius: $border-radius-28;
 
+    &:focus-visible {
+      outline: 1px solid $blue;
+    }
+
     &::placeholder {
       color: $pale-blue;
       line-height: $line-height-20;
