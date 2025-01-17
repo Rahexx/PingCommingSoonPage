@@ -35,3 +35,28 @@
     margin-top: $space-32;
   }
 }
+
+@media (min-width: $breakpoint-large) {
+  .header {
+    margin: $space-80 0 $space-94;
+
+    &__logo {
+      height: 27.2px;
+      width: 90px;
+    }
+
+    &__title {
+      margin: $space-40 0 $space-16;
+      line-height: $line-height-60;
+      font-size: $font-size-48;
+    }
+
+    &__text {
+      font-size: $font-size-20;
+    }
+
+    &__form {
+      margin-top: $space-40;
+    }
+  }
+}

@@ -8,11 +8,12 @@
     .form__error {
       position: absolute;
       top: $space-42;
-      left: $space-30;
+      left: 0;
       display: inline-block;
       height: 20px;
       width: 100%;
       color: $light-red;
+      text-align: center;
       line-height: $line-height-20;
       letter-spacing: $letter-spacing-m;
       font-size: $font-size-12;
@@ -64,5 +65,35 @@
     border-radius: $border-radius-28;
     box-shadow: 0 5px 10px 2px $shadow-blue;
     cursor: pointer;
+  }
+}
+
+@media (min-width: $breakpoint-large) {
+  .form {
+    flex-direction: row;
+    gap: $space-16;
+
+    &--error {
+      .form__error {
+        top: $space-58;
+        left: $space-30;
+        text-align: start;
+      }
+    }
+    &__input {
+      height: 56px;
+      width: 421px;
+      padding: $space-18 0 $space-18 $space-30;
+
+      &::placeholder {
+        font-size: $font-size-16;
+      }
+    }
+
+    &__submit {
+      height: 56px;
+      width: 200px;
+      font-size: $font-size-16;
+    }
   }
 }
