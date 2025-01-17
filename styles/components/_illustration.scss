@@ -10,3 +10,14 @@
     width: 320px;
   }
 }
+
+@media (min-width: $breakpoint-large) {
+  .main {
+    margin-bottom: $space-72;
+
+    &__illustration {
+      height: 383px;
+      width: 640px;
+    }
+  }
+}
