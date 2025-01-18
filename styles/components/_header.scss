@@ -38,7 +38,7 @@
 
 @media (min-width: $breakpoint-large) {
   .header {
-    margin: $space-88 0 $space-94;
+    margin: $space-86 0 $space-94;
 
     &__logo {
       height: 27.2px;
@@ -46,7 +46,7 @@
     }
 
     &__title {
-      margin: $space-40 0 $space-16;
+      margin: $space-42 0 $space-18;
       line-height: $line-height-60;
       font-size: $font-size-48;
     }
