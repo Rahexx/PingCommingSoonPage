@@ -1,0 +1,105 @@
+.form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: $space-32;
+
+  &--error {
+    .form__error {
+      position: absolute;
+      top: $space-42;
+      left: 0;
+      display: inline-block;
+      height: 20px;
+      width: 100%;
+      color: $light-red;
+      text-align: center;
+      line-height: $line-height-20;
+      letter-spacing: $letter-spacing-m;
+      font-size: $font-size-12;
+      font-weight: $font-weight-400;
+      font-style: $font-style-italic;
+    }
+
+    .form__input {
+      border: 1px solid $light-red;
+
+      &:focus-visible {
+        outline: 1px solid $light-red;
+      }
+    }
+  }
+  &__input {
+    position: relative;
+    height: 40px;
+    width: 281px;
+    padding: $space-10 0 $space-10 $space-32;
+    border: 1px solid $pale-blue;
+    border-radius: $border-radius-28;
+    box-shadow: 0 0 7px 3px $dark-shadow;
+
+    &:focus-visible {
+      outline: 1px solid $blue;
+    }
+
+    &::placeholder {
+      color: $pale-blue;
+      line-height: $line-height-20;
+      font-size: $font-size-12;
+      font-weight: $font-weight-300;
+    }
+  }
+
+  &__error {
+    display: none;
+  }
+
+  &__submit {
+    height: 40px;
+    width: 282px;
+    border: none;
+    background: $blue;
+    color: $white;
+    line-height: $line-height-16;
+    font-size: $font-size-12;
+    font-weight: $font-weight-600;
+    border-radius: $border-radius-28;
+    box-shadow: 0 5px 10px 2px $shadow-blue;
+    transition: background 0.3s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+      background: $accent-blue;
+    }
+  }
+}
+
+@media (min-width: $breakpoint-large) {
+  .form {
+    flex-direction: row;
+    gap: $space-16;
+
+    &--error {
+      .form__error {
+        top: $space-58;
+        left: $space-30;
+        text-align: start;
+      }
+    }
+    &__input {
+      height: 56px;
+      width: 421px;
+      padding: $space-18 0 $space-18 $space-30;
+
+      &::placeholder {
+        font-size: $font-size-16;
+      }
+    }
+
+    &__submit {
+      height: 56px;
+      width: 200px;
+      font-size: $font-size-16;
+    }
+  }
+}

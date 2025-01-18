@@ -1,0 +1,30 @@
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: $space-12;
+
+  &__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 31px;
+    width: 32px;
+    border: 1px solid $shadow-blue;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.5s ease-in-out;
+
+    &:hover {
+      background: $blue;
+
+      .socials__icon {
+        color: $white;
+      }
+    }
+  }
+
+  &__icon {
+    color: $blue;
+    transition: color 0.5s ease-in-out;
+  }
+}

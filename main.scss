@@ -1,0 +1,12 @@
+@import './styles/base/reset';
+@import './styles/utilities/variables';
+@import './styles/components/header';
+@import './styles/components/form';
+@import './styles/components/illustration';
+@import './styles/components/footer';
+@import './styles/components/socials';
+
+.container,
+button {
+  font-family: $font-primary;
+}

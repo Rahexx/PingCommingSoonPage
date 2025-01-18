@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+$blue: hsl(223, 87%, 63%);
+$shadow-blue: hsla(223, 87%, 63%, 23%);
+$accent-blue: hsl(223, 77%, 66%);
+$pale-blue: hsl(223, 100%, 88%);
+$light-red: hsl(354, 100%, 66%);
+$gray: hsl(0, 0%, 59%);
+$dark-blue: hsl(209, 33%, 12%);
+$white: hsl(100, 100%, 100%);
+$dark-shadow: hsl(0, 0, 0, 0.01%);
+
+$font-primary: 'Libre Franklin', serif;
+
+$font-size-10: 0.625rem;
+$font-size-12: 0.75rem;
+$font-size-16: 1rem;
+$font-size-20: 1.25rem;
+$font-size-22: 1.375rem;
+$font-size-32: 2rem;
+$font-size-48: 3rem;
+
+$font-weight-300: 300;
+$font-weight-400: 400;
+$font-weight-600: 600;
+$font-weight-700: 700;
+
+$font-style-italic: italic;
+
+$line-height-16: 16px;
+$line-height-20: 20px;
+$line-height-32: 32px;
+$line-height-60: 60px;
+
+$letter-spacing-s: 0.13px;
+$letter-spacing-m: 0.15px;
+
+$border-radius-28: 28px;
+
+$space-6: 6px;
+$space-10: 10px;
+$space-12: 12px;
+$space-15: 15px;
+$space-16: 16px;
+$space-18: 18px;
+$space-20: 20px;
+$space-25: 25px;
+$space-27: 27px;
+$space-30: 30px;
+$space-32: 32px;
+$space-37: 37px;
+$space-40: 40px;
+$space-42: 42px;
+$space-49: 49px;
+$space-58: 58px;
+$space-72: 72px;
+$space-80: 80px;
+$space-81: 81px;
+$space-94: 94px;
+$space-120: 120px;
+
+$breakpoint-large: 768px;

@@ -1,0 +1,24 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: $space-27;
+  margin-bottom: $space-37;
+  align-items: center;
+
+  &__copyRight {
+    color: $gray;
+    font-weight: $font-weight-300;
+    font-size: $font-size-10;
+  }
+}
+
+@media (min-width: $breakpoint-large) {
+  .footer {
+    gap: $space-25;
+    margin-bottom: $space-49;
+
+    &__copyRight {
+      font-size: $font-size-12;
+    }
+  }
+}
